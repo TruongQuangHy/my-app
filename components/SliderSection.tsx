@@ -32,32 +32,40 @@ export default function SliderSection() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img
-              src="slider1.jpg"
-              className="w-full h-full object-cover rounded-lg"
-              alt=""
-            />
+            <div className="w-[450px] h-[600px] overflow-hidden rounded-lg">
+              <img
+                src="slider1.jpg"
+                className="w-full h-full object-cover"
+                alt=""
+              />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="slider1.jpg"
-              className="w-full h-full object-cover rounded-lg"
-              alt=""
-            />
+            <div className="w-[450px] h-[600px] overflow-hidden rounded-lg">
+              <img
+                src="slider1.jpg"
+                className="w-full h-full object-cover"
+                alt=""
+              />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="slider1.jpg"
-              className="w-full h-full object-cover rounded-lg"
-              alt=""
-            />
+            <div className="w-[450px] h-[600px] overflow-hidden rounded-lg">
+              <img
+                src="slider1.jpg"
+                className="w-full h-full object-cover"
+                alt=""
+              />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="slider1.jpg"
-              className="w-full h-full object-cover rounded-lg"
-              alt=""
-            />
+            <div className="w-[450px] h-[600px] overflow-hidden rounded-lg">
+              <img
+                src="slider1.jpg"
+                className="w-full h-full object-cover"
+                alt=""
+              />
+            </div>
           </SwiperSlide>
         </Swiper>
       </div>
